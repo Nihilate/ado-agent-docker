@@ -2,7 +2,7 @@ FROM microsoft/windowsservercore:ltsc2016
 
 ARG AGENT_VERSION=2.146.0
 ARG AGENT_FILENAME=vsts-agent-win-x64-$AGENT_VERSION.zip
-ARG MD5_CHECKSUM=07ae57435c1649bf7d6b861eab212eef
+ARG MD5_CHECKSUM=bcb38f46de3b89fbbbd84eab41ca1d44
 
 WORKDIR c:/setup
 SHELL ["powershell", "-Command", "$ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue';"]
