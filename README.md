@@ -1,8 +1,10 @@
 # Self-Hosted Azure DevOps Agents in Docker
 
+[![Build status](https://nihilate.visualstudio.com/Docker%20Azure%20DevOps%20Agent/_apis/build/status/Docker%20Azure%20DevOps%20Agent-CI)](https://nihilate.visualstudio.com/Docker%20Azure%20DevOps%20Agent/_build/latest?definitionId=3)
+
 ## What is this repo for?
 
-This repository contains Dockerfiles which will allow you to create images for self-hosted [build and release agents for Azure DevOps](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/agents?view=azdevops).
+This repository contains Dockerfiles which will allow you to create images for self-hosted [build and release agents for Azure DevOps](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/agents?view=azdevops). [The images are available on Docker Hub.](https://hub.docker.com/r/nihilate/ado-agent)
 
 ## How do I run these images?
 
