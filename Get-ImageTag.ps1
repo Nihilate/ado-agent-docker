@@ -15,7 +15,7 @@ $agentVersion = $Matches[1]
 $imageTag = "$agentVersion-$FolderName"
 
 if ($RunningOnADO) {
-    Write-Output "##vso[task.setvariable variable=imageTag;isOutput=true]$imageTag"
+    Write-Output "##vso[task.setvariable variable=imageTag;]$imageTag"
 }
 else {
     Write-Output $imageTag
